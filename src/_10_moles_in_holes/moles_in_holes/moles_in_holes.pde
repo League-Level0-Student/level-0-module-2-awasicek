@@ -1,8 +1,16 @@
+/**
+ * @fileoverview Goal: Put the moles in their holes!
+ */
+ 
+final int MOLE_Y_OFFSET = 15;
+ 
 void draw() {
 
 /* Use the method below to put moles in the holes. */
-
-
+  drawMole(200, 200 - MOLE_Y_OFFSET);
+  drawMole(70, 119 - MOLE_Y_OFFSET);
+  drawMole(300, 60 - MOLE_Y_OFFSET);
+  drawMole(297, 350 - MOLE_Y_OFFSET);
 }
 
 void drawMole(int moleX, int moleY) {
