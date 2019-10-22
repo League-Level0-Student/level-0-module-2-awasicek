@@ -24,7 +24,7 @@ public class IntroToRandom {
 		num = ran.nextInt(51) + 25; // between 0 and 50 inclusive, offset so between 25 and 75 inclusive
 
 		//6. Challenge: Limit the value of num to be between -222 and 88
-		num = ran.nextInt(301) - 222; // between 0 and 300 inclusive, offset so between -222 and 88 inclusive
+		num = ran.nextInt(311) - 222; // between 0 and 310 inclusive, offset so between -222 and 88 inclusive
 
 		//1. Print out the value of num
 		System.out.println(num);
